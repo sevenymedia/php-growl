@@ -22,6 +22,11 @@
             $this->password      = null;
             $this->port          = 9887;
         }
+        
+        public function setPort($no=9887)
+        {
+            $this->port = (int)$no;
+        }
 
         public function addNotification($name, $enabled = true)
         {
