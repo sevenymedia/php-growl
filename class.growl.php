@@ -20,7 +20,7 @@
             $this->address       = null;
             $this->notifications = array();
             $this->password      = null;
-            $this->port          = 9887;
+            $this->setPort();
         }
         
         public function setPort($no=9887)
